@@ -1,0 +1,63 @@
+.contact {
+  height: 75vh;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  small{
+    display: none;
+    text-align: left;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.8rem 0;
+      font-size: 1em;
+      border: none;
+      border-bottom: 2px solid rgb(82, 82, 82);
+      outline: none;
+      resize: none;
+    }
+
+    textarea {
+      height: 7.5rem;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+
+  .submit {
+    margin: 3rem auto;
+    border: none;
+    background: none;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+
+    &:hover {
+      cursor: pointer;
+      background: black;
+      color: white;
+      transition: all 0.3s ease-in;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.footer {
+  .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 0;
+    background: black;
+    color: white;
+  }
+
+  &__copyright {
+    letter-spacing: -0.5px;
+    font-size: 0.8em;
+  }
+
+  &__socials {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.fa-brands {
+  color: white;
+  padding: 0 0.5rem;
+  font-size: 1.1rem;
+}

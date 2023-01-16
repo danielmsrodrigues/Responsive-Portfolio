@@ -1,0 +1,36 @@
+.to-top {
+  &__btn {
+    fill: #353434;
+    position: fixed;
+    bottom: 3.5rem;
+    right: 2.6rem;
+    width: 1.8rem;
+    height: 1.3rem;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+
+    &.active {
+      bottom: 2rem;
+      pointer-events: auto;
+      opacity: 1;
+    }
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: #353434;
+    rotate: 90deg;
+    position: fixed;
+    bottom: 5rem;
+    right: 0.1rem;
+    opacity: 0;
+    transition: all 0.4s;
+
+    &.active {
+      bottom: 3.5rem;
+      opacity: 1;
+    }
+  }
+}

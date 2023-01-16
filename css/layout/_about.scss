@@ -1,0 +1,27 @@
+.about {
+  padding-top: 5rem;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &__col-left {
+    width: 30%;
+  }
+
+  &__col-right {
+    width: 70%;
+    padding: 0.6rem 7rem 0 0;
+  }
+
+  h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 2rem;
+  }
+}

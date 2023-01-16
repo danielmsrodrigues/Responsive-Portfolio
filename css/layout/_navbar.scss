@@ -1,0 +1,50 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  background: transparent;
+  z-index: 999;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+
+    li a {
+      padding: 0 1.5rem;
+      color: black;
+
+      &:hover {
+        font-weight: bold;
+        color: #cc2936;
+      }
+    }
+  }
+
+  &__logo {
+    opacity: 0.8;
+    padding: 1rem 0;
+    font-size: 1.8em;
+    color: #000000;
+  }
+
+  &__hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    position: relative;
+    background: #000000;
+    border-radius: 3px;
+    transition: all 500ms ease-in-out;
+  }
+}

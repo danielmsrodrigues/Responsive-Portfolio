@@ -1,0 +1,82 @@
+.hero {
+  height: 100vh;
+
+  &__wrapper {
+    display: flex;
+    padding: 10rem 0 0;
+    justify-content: space-between;
+  }
+
+  &__content {
+    display: block;
+    padding: 5rem 0 0 3rem;
+  }
+
+  &__link {
+    padding-top: 6rem;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 2.5rem;
+    color: #6c6c6c;
+  }
+
+  a {
+    font-size: 1.1em;
+    color: black;
+  }
+
+  &__image {
+    position: relative;
+    align-items: center;
+  }
+
+  &__box {
+    position: absolute;
+    right: 0.8rem;
+    top: 2.5rem;
+    background: rgb(244, 243, 243);
+    border-radius: 20rem;
+    height: 85%;
+    width: 85%;
+    z-index: -1;
+  }
+
+  &__socials {
+    position: absolute;
+    padding-top: 8rem;
+    display: flex;
+
+    a {
+      margin-right: 4rem;
+    }
+  }
+
+  .fa-brands {
+    font-size: 1.4rem;
+    color: black;
+    padding: 0;
+  }
+
+  img {
+    animation: MoveUpDown 6s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+
+  @keyframes MoveUpDown {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+}
