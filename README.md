@@ -1,7 +1,7 @@
 <h1>Responsive Portfolio</h1>
 
 This is a portfolio I made for my Web Development course at ETIC. It is my first one ever.
-Here I have put to practice the knowledge I have learned on my classes and I have put my HTML, CSS and JavaScript skills to work.
+Here I have put to practice the knowledge I have earned during my classes and I have put my HTML, CSS and JavaScript skills to work.
 This is a fully responsive website.
 
 <h2>Demo</h2>
